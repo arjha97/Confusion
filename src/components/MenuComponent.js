@@ -7,7 +7,6 @@ function RenderMenu({dish, onClick}){
       <CardImg width="100%" src={dish.image} alt={dish.category} />
       <CardImgOverlay className="ml-4">
           <CardTitle>{dish.name}</CardTitle>
-          <p>{dish.description}</p>
       </CardImgOverlay> 
     </Card> 
    )
